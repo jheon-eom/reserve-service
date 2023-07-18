@@ -1,13 +1,13 @@
-package com.example.PointsService;
+package com.example.PointService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PointsServiceApplication {
+public class PointServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PointsServiceApplication.class, args);
+		SpringApplication.run(PointServiceApplication.class, args);
 	}
 
 }
