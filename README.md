@@ -2,9 +2,9 @@
 마켓보로 사전과제 테스트 레포지토리입니다.
 
 ## API 목록
-1. 회원별 적립금 합계 조회
+1. 회원별 적립금 합계 조회 <br>
 요청 예시 - GET /api/v1/member/{id}/point  <br>
-응답 예시 - 200 OK
+응답 예시 - 200 OK <br>
 {
   "memberId": 1,
   "totalPoint": 1500
