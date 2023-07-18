@@ -3,7 +3,7 @@
 
 ## API 목록
 1. 회원별 적립금 합계 조회
-요청 예시 - GET /api/v1/member/{id}/point 
+요청 예시 - GET /api/v1/member/{id}/point  <br>
 응답 예시 - 200 OK
 {
   "memberId": 1,
