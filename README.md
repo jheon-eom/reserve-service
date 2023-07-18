@@ -47,12 +47,12 @@
   "totalPoint": 1000
 }
 
-4. 회원별 적립금 사용
-요청 예시 - POST /api/v1/member/{id}/point/withdraw
+4. 회원별 적립금 사용 <br>
+요청 예시 - POST /api/v1/member/{id}/point/withdraw <br>
 {
   "amount": 500
-}
-응답 예시 201 OK
+} <br>
+응답 예시 201 OK <br>
 {
   "memberId": 1,
   "totalPoint": 800
