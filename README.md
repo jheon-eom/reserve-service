@@ -10,9 +10,9 @@
   "totalPoint": 1500
 }
 
-2. 회원별 적립금 적립/사용 내역 조회
-요청 예시 - GET /api/v1/member/{id}/point/history
-응답 예시 - 200 OK
+2. 회원별 적립금 적립/사용 내역 조회 <br>
+요청 예시 - GET /api/v1/member/{id}/point/history <br>
+응답 예시 - 200 OK <br>
 {
   "memberId": 1,
   "page": 1,
@@ -35,13 +35,13 @@
   ]
 }
 
-3. 회원별 적립금 적립
-요청 예시 - POST /api/v1/member/{id}/point/desposit
+3. 회원별 적립금 적립 <br>
+요청 예시 - POST /api/v1/member/{id}/point/desposit <br>
 {
   "paymentId": 1,
   "amount": 500
-}
-응답 예시 - 201 OK
+} <br>
+응답 예시 - 201 OK <br>
 {
   "memberId": 1,
   "totalPoint": 1000
